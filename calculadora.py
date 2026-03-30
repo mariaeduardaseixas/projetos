@@ -27,9 +27,9 @@
 
 
 # prferência de escolha - adicione com input
-escolha = input("Digite o número da operação (1/2/3/4): ")
+escolha = input("Digite o número da operação (1/2/3/4/5): ")
 # in - subconjunto em python como listas,tuplas
-if escolha in ('1', '2', '3', '4'):
+if escolha in ('1', '2', '3', '4','5','6'):
 
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
@@ -46,6 +46,11 @@ if escolha in ('1', '2', '3', '4'):
     elif escolha == '4':
             if num2 != 0:
                 print(f"Resultado: {num1 / num2}")
+    elif escolha == '5':
+        print(f"resultado: {num1 ** num2}")
+    elif escolha == '6';
+        print(pow(num1, num2))
+        
     else:
                 print("Erro: Divisão por zero! número ímpar")
 else:
