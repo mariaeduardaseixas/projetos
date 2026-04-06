@@ -11,10 +11,13 @@
 # 35 a < 40	'Obesidade Grau II (severa)'
 # ≥ 40		'Obesidade Grau III (mórbida)'
 # duas variáveis para indicar o valor da altura e o peso
+
+import match
+
 peso = float(input("Digite o seu peso: "))
 altura = float(input("Digite sua altura: "))
 # processamento -imc - conta utilizada para saber o seu bem-estar através da altura e peso.
-imc = peso / (altura * altura)
+imc = peso / (pow(altura, 2))
 print(imc)
 #avaliação do imc
 if imc <= 16:
