@@ -24,7 +24,9 @@
 
 # if operacao == 1:
 #     resultado = num1 + num2
-
+# tipo booleano
+# valores possíveis true 1 ou false = 0
+# break para execução do programa
 
 # prferência de escolha - adicione com input
 import math
