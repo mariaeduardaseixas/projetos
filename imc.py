@@ -12,7 +12,7 @@
 # ≥ 40		'Obesidade Grau III (mórbida)'
 # duas variáveis para indicar o valor da altura e o peso
 
-import match
+import math
 
 peso = float(input("Digite o seu peso: "))
 altura = float(input("Digite sua altura: "))
